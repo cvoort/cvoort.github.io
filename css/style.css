@@ -6,6 +6,10 @@
     color: rgb(22,2,135);
 }
 
+.bg-dark-primary {
+    background-color: rgb(22,2,135);
+}
+
 .bg-success-light {
     background-color: rgb(131, 202,109);
 }

@@ -10,10 +10,10 @@
     <title>Cas van der Voort</title>
 </head>
 
-<body>
+<body class="vh-100">
     <header class="">
         <nav class="navbar navbar-expand-sm container-fluid d-flex justify-content-center text-dark-primary">
-            <ul class="nav nav-tabs d-flex justify-content-evenly align-center bg-success-light col-11 p-3 border-dark-primary border-3 rounded-3"
+            <ul class="nav nav-tabs d-flex justify-content-evenly align-items-center bg-success-light col-11 p-3 border-dark-primary border-3 rounded-3"
                 id="myTab" role="tablist">
                 <li class="" role="presentation">
                     <div class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
@@ -28,8 +28,8 @@
                     </div>
                 </li>
                 <li class="" role="presentation">
-                    <div class="" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects"
-                        type="button" role="tab" aria-controls="projects" aria-selected="false">
+                    <div class="" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button"
+                        role="tab" aria-controls="projects" aria-selected="false">
                         <h5 class="">Projecten</h5>
                     </div>
                 </li>
@@ -43,15 +43,18 @@
         </nav>
     </header>
 
-    <main>
-
-        <!-- Nav tabs -->
-
+    <main class="h-75">
 
         <!-- Tab panes -->
-        <div class="tab-content">
-            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                home
+        <div class="tab-content h-100">
+            <div class="tab-pane container container-fluid h-100 active d-flex justify-content-center" id="home"
+                role="tabpanel" aria-labelledby="home-tab">
+                <div class="container container-fluid h-100 w-75 d-flex justify-content-center p-1">
+                    <div class="align-self-center w-25 ratio ratio-1x1 d-flex justify-content-center align-items-center rounded-circle bg-dark-primary position-relative">
+                        <img src="img/Foto cas.jpeg" alt="My foto"
+                            class="rounded-circle w-75 h-75 align-self-center top-50 start-50 translate-middle">
+                    </div>
+                </div>
             </div>
             <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 Over mij

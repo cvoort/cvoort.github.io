@@ -10,57 +10,169 @@
     <title>Cas van der Voort</title>
 </head>
 
-<body class="vh-100">
+<body class="">
     <header class="">
         <nav class="navbar navbar-expand-sm container-fluid d-flex justify-content-center text-dark-primary">
             <ul class="nav nav-tabs d-flex justify-content-evenly align-items-center bg-success-light col-11 p-3 border-dark-primary border-3 rounded-3"
                 id="myTab" role="tablist">
                 <li class="" role="presentation">
-                    <div class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-                        role="tab" aria-controls="home" aria-selected="true">
-                        <h5 class="">Home</h5>
+                    <div class="" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                        aria-controls="home" aria-selected="true">
+                        <h4 class="fw-bold">Home</h4>
                     </div>
                 </li>
                 <li class="" role="presentation">
                     <div class="" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
                         role="tab" aria-controls="profile" aria-selected="false">
-                        <h5 class="">Over mij</h5>
+                        <h4 class="fw-bold">Over mij</h4>
                     </div>
                 </li>
-                <li class="" role="presentation">
+                <li class="active" role="presentation">
                     <div class="" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button"
                         role="tab" aria-controls="projects" aria-selected="false">
-                        <h5 class="">Projecten</h5>
+                        <h4 class="fw-bold">Projecten</h4>
                     </div>
                 </li>
                 <li class="" role="presentation">
                     <div class="" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
                         role="tab" aria-controls="contact" aria-selected="false">
-                        <h5 class="">Contact</h5>
+                        <h4 class="fw-bold">Contact</h4>
                     </div>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="h-75">
+    <main class="">
 
         <!-- Tab panes -->
         <div class="tab-content h-100">
-            <div class="tab-pane container container-fluid h-100 active d-flex justify-content-center" id="home"
-                role="tabpanel" aria-labelledby="home-tab">
-                <div class="container container-fluid h-100 w-75 d-flex justify-content-center p-1">
-                    <div class="align-self-center w-25 ratio ratio-1x1 d-flex justify-content-center align-items-center rounded-circle bg-dark-primary position-relative">
+            <div class="tab-pane container container-fluid vh-100" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div
+                    class="container container-fluid h-75 w-75 d-flex flex-column justify-content-center align-items-center p-1">
+                    <div
+                        class="align-self-center w-25 ratio ratio-1x1 d-flex justify-content-center align-items-center rounded-circle bg-dark-primary position-relative">
                         <img src="img/Foto cas.jpeg" alt="My foto"
                             class="rounded-circle w-75 h-75 align-self-center top-50 start-50 translate-middle">
                     </div>
+                    <div
+                        class="card h-25 w-50 bg-success-lighter border-dark-primary border-3 rounded-5 d-flex justify-content-center align-items-center text-dark-primary">
+                        <h4 class="fw-bold">Cas van der Voort</h4>
+                        <h4 class="fw-bold">Software Development student</h4>
+                    </div>
                 </div>
             </div>
-            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                Over mij
+            <div class="tab-pane container" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div
+                    class="container container-fluid h-75 w-75 d-flex flex-column justify-content-center align-items-center p-3">
+                    <div class="align-self-center w-25 ratio ratio-1x1">
+                        <img src="img/Foto cas.jpeg" alt="My foto"
+                            class="rounded-circle align-self-center top-50 start-50 translate-middle">
+                    </div>
+                </div>
+                <div
+                    class="card w-100 bg-success-lighter border-dark-primary border-3 rounded-5 d-flex justify-content-center align-items-center text-dark-primary p-3">
+                    <h4 class="fw-bold">Mijn naam is Cas van der Voort</h4>
+                    <h4 class="fw-bold">Ik ben (bijna) software developer.</h4>
+                    <article class="text-center my-4">
+                        <h4 class="p-3">Ik ben een eerste jaar student op het ROC Mondriaan waar ik do opleiding
+                            Software Development doe.</h4>
+                        <h4>Ik vind het leuk om nieuwe codeer uitdagingen aan te gaan zodat ik mezelf kan verbeteren.
+                        </h4>
+                        <h4 class="p-3">In mijn vrije tijd vind ik het leuk om te lezen en om extra functies toe te
+                            voegen aan mijn codeer opdrachten van school.</h4>
+                        <h4 class="pb-3">Ik werk hard en zorgvuldig, maar heb door mijn autisme soms wat opstart en
+                            concentratieproblemen.</h4>
+                    </article>
+                </div>
             </div>
-            <div class="tab-pane" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-                Projecten
+            <div class="tab-pane active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-center">
+                        <aside class="fw-bold fs-5 w-75 text-center">
+                            Dit zijn alle projecten waar ik tot nu toe aan gewerkt heb. Alle projecten zijn gemaakt in
+                            Visual Studio Code en met behulp van GitHub. Deze pagina wordt regelmatig bijgewerkt.
+                        </aside>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card-container d-flex justify-content-center h-100">
+                                <div
+                                    class="card bg-success-lighter border-dark-primary border-3 rounded-5 text-dark-primary text-center w-50 p-4">
+                                    <img src="img/dobbelstenen.webp" alt="" class="">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold card-title">Hoger-Lager</h4>
+                                        <p class="card-text fw-bold lh-1">
+                                            Een spel waarbij je moet gokken of je hoger of lager gaat rollen dan de
+                                            computer. We hadden een standaard opdracht, waarna ik zelf nog allerlei
+                                            dingen toegevoegd heb. Dit is gemaakt in html, CSS en Javascript.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-container d-flex justify-content-center h-100">
+                                <div
+                                    class="card bg-success-lighter border-dark-primary border-3 rounded-5 text-dark-primary text-center w-50 p-4">
+                                    <img src="img/BaG logo.png" alt="" class="px-4">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold card-title">Build-a-Game</h4>
+                                        <p class="card-text fw-bold lh-1">
+                                            Een site met meerdere spellen erop. Mijn aandeel hieraan is het spel Boter
+                                            Kaas en Eieren. Deze spellen zijn gemaakt met html, CSS en Javascript.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-container d-flex justify-content-center h-100">
+                                <div
+                                    class="card bg-success-lighter border-dark-primary border-3 rounded-5 text-dark-primary text-center w-50 p-4">
+                                    <img src="img/checkerboard.jpg" alt="" class="">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold card-title">Themaweek 2</h4>
+                                        <p class="card-text fw-bold lh-1">
+                                            We moesten een spel bouwen met javascript. Ik heb het spel dammen gebouwd.
+                                            Omdat iedereen alleen moest werken, heb ik het spel niet afgekregen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-container d-flex justify-content-center h-100">
+                                <div
+                                    class="card bg-success-lighter border-dark-primary border-3 rounded-5 text-dark-primary text-center w-50 p-4">
+                                    <img src="img/icon-webcatalog.png" alt="" class="">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold card-title">Webcatalogus</h4>
+                                        <p class="card-text fw-bold lh-1">
+                                            Een site waarop we met NodeJS kaarten hebben gemaakt. We moesten zelf een
+                                            NodeJs server opzetten.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-container d-flex justify-content-center h-100">
+                                <div
+                                    class="card bg-success-lighter border-dark-primary border-3 rounded-5 text-dark-primary text-center w-50 p-4">
+                                    <img src="img/dobbelstenen.webp" alt="" class="">
+                                    <div class="card-body">
+                                        <h4 class="fw-bold card-title">Dashboard</h4>
+                                        <p class="card-text fw-bold lh-1">
+                                            Een site waarbij je onder andere een dashboard moest creëren met ChartJS, NodeJS en MongoDB.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                 Contact

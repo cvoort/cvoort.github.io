@@ -1,3 +1,7 @@
+* {
+    font-family: Calibri;
+}
+
 .border-dark-primary {
     border: 3px solid rgb(22,2,135);
 }
@@ -12,4 +16,8 @@
 
 .bg-success-light {
     background-color: rgb(131, 202,109);
+}
+
+.bg-success-lighter {
+    background-color: rgba(131, 202,109,0.63);
 }

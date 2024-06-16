@@ -16,8 +16,8 @@
             <ul class="nav nav-tabs d-flex justify-content-evenly align-items-center bg-success-light col-11 p-3 border-dark-primary border-3 rounded-3"
                 id="myTab" role="tablist">
                 <li class="" role="presentation">
-                    <div class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
-                        aria-controls="home" aria-selected="true">
+                    <div class="" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                        role="tab" aria-controls="home" aria-selected="true">
                         <h4 class="fw-bold">Home</h4>
                     </div>
                 </li>
@@ -39,6 +39,12 @@
                         <h4 class="fw-bold">Contact</h4>
                     </div>
                 </li>
+                <li class="" role="presentation">
+                    <div class="active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button"
+                        role="tab" aria-controls="info" aria-selected="false">
+                        <h4 class="fw-bold">Info</h4>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -47,7 +53,8 @@
 
         <!-- Tab panes -->
         <div class="tab-content h-100">
-            <div class="tab-pane container container-fluid vh-100 active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane container container-fluid vh-100 " id="home" role="tabpanel"
+                aria-labelledby="home-tab">
                 <div
                     class="container container-fluid h-75 w-75 d-flex flex-column justify-content-center align-items-center p-1">
                     <div
@@ -184,6 +191,20 @@
                             <h4 class="fw-bold">Email: casvandervoort2006@gmail.com</h4>
                             <h4 class="fw-bold">Telefoonnummer: 06 299*****</h4>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane container active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                <div>
+                    <div
+                        class="card w-100 bg-success-lighter border-dark-primary border-3 rounded-5 d-flex justify-content-center align-items-center text-dark-primary p-3">
+                        <h4 class="fw-bold">Informatie over het portfolio</h4>
+                        <article class="text-center my-4">
+                            <h4 class="p-3">Dit is het portfolio van Cas van der Voort.</h4>
+                            <h4>Ik heb de website gemaakt met Bootstrap.</h4>
+                            <h4 class="p-3">Op de website staat informatie over wie ik ben, wat mijn hobby's zijn en welke projecten ik gemaakt heb.</h4>
+                            <h4 class="pb-3"></h4>
+                        </article>
                     </div>
                 </div>
             </div>
